@@ -1,0 +1,67 @@
+.container {
+    position: relative;
+    max-width: 413px;
+    max-height: 900px;
+    margin: auto;
+    text-align: center;
+    border: 1px solid red;
+    overflow: hidden;
+}
+
+.navbar {
+    display: grid;
+    grid-template-columns: 70px 70px;
+    grid-template-rows: 1fr;
+    justify-content: flex-end;
+    align-items: center;
+    height: 42px;
+    background-color: #ABC8C0;
+}
+
+h1 {
+    margin: 0 0;
+    font-family: "MedievalSharp", cursive;
+}
+
+p {
+    color: black;
+    font-family: "MedievalSharp", cursive;
+}
+
+
+#adventure-text {
+    margin: 0 0;
+    font-family: "Aboreto", system-ui;
+    font-size: 40px;
+    color: #9EE493;
+}
+
+#title-inverted {
+    font-size: 96px;
+    line-height: 0.5; 
+    margin-top: 25px;
+}
+
+#title-world {
+    font-size: 50px;
+}
+
+a {
+    font-family: "Aboreto", system-ui;
+    color: black;
+    text-decoration: none;
+    font-weight: 1200;
+    background-color: #DAF7DC;
+    border: 1px solid red;
+}
+
+.circle {
+    position: relative;
+    left: -100px;
+    border-radius: 50%;
+    width: 600px;
+    height: 900px;
+    background-color: #ABC8C0;
+    margin: auto;
+    
+}

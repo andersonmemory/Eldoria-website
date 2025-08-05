@@ -10,12 +10,12 @@
 
 .navbar {
     display: grid;
-    grid-template-columns: 70px 70px;
-    grid-template-rows: 1fr;
+    grid-template-columns: repeat(5, 1fr);
     justify-content: flex-end;
     align-items: center;
     height: 42px;
     background-color: #ABC8C0;
+    padding: 0 10px 0 10px;
 }
 
 h1 {
@@ -46,15 +46,6 @@ p {
     font-size: 50px;
 }
 
-a {
-    font-family: "Aboreto", system-ui;
-    color: black;
-    text-decoration: none;
-    font-weight: 1200;
-    background-color: #DAF7DC;
-    border: 1px solid red;
-}
-
 .circle {
     position: relative;
     left: -100px;
@@ -64,4 +55,21 @@ a {
     background-color: #ABC8C0;
     margin: auto;
     
+}
+
+.button {
+    font-family: "Aboreto", system-ui;
+    color: black;
+    text-decoration: none;
+    font-weight: 1200;
+    background-color: #DAF7DC;
+    border-radius: 5px;
+    padding: 0 10px;
+    font-weight: bold;
+    -webkit-text-stroke: 1px black;
+}
+
+.button a {
+    display: block;
+    border: 5px solid blue;
 }

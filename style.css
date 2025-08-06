@@ -11,7 +11,7 @@ body {
 .container {
     position: relative;
     max-width: 413px;
-    max-height: 900px;
+    max-height: 100vh;
     margin: auto;
     text-align: center;
     overflow: hidden;
